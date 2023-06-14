@@ -209,6 +209,9 @@ height: 178px;
     margin-left: 100px;
 }
 
+/*------------section4-------------*/
+
+
 .FindcarHeader {
     width: 98%;
     height: 60px;
@@ -226,7 +229,7 @@ height: 178px;
 }
 
 .findCar {
-    font-family: 'Inter';
+font-family: 'Inter';
 font-style: normal;
 font-weight: 700;
 font-size: 28px;
@@ -236,7 +239,7 @@ color: #0D0A19;
 }
 
 .ArrowArea{
-    font-family: 'Inter';
+font-family: 'Inter';
 font-style: normal;
 font-weight: 700;
 font-size: 16px;
@@ -303,6 +306,232 @@ color: #0D0A19;
 	left: 0;
 	transition: 0.5s;
 }
+.CarouselSection{
+    overflow: hidden;
+}
+
+
+/*------------section5-------------*/
+
+.section5 h1{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 28px;
+line-height: 36px;
+letter-spacing: -0.1px;
+color: #0D0A19;
+}
+.section5P{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+letter-spacing: -0.1px;
+color: #0D0A19;
+}
+.section5 .NumberContainer .time{
+    height: 40px;
+    width: 40px;
+    border: 1px solid gray;
+    margin-left: 10px;
+    text-align: center;
+    border-radius: 5px;
+    
+}
+.section5 .NumberContainer .time span{
+    margin-top: 5px;
+    position: absolute;
+    margin-left: -5px;
+}
+.infoP{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: -0.1px;
+    color: #9A9EA7;
+    margin-top: 5px;
+}
+.section5{
+    width: 100%;
+    position: relative;
+    margin-bottom: 50px;
+
+}
+.CompanyLogo{
+    border-radius: 10px;
+    box-shadow: 0 0 10px  rgba(0,0,0,0.6);
+}
+
+.mobileView{
+    margin-bottom: 400px;
+    position: absolute;
+    margin-left: 1000px;
+    margin-top: 150px;
+    z-index: 3;
+}
+.mobile{
+    box-shadow: 0 0 10px  rgba(0,0,0,0.6);
+    border-radius: 10px;
+}
+.companyImg{
+    padding: 20px;
+
+}
+
+*{
+    box-sizing: border-box;
+}
+html{
+    overflow-x: hidden;
+}
+
+
+
+/*-------------------section6---------------*/
+.bmt{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: -0.1px;
+    color: #9A9EA7;
+    margin: 10px;
+}
+.make{
+    color:#0D0A19;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: -0.1px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    pointer-events: none;
+}
+.section6{
+    padding-top: 50px;
+}
+.section6 h1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 36px;
+    letter-spacing: -0.1px;
+    color: #0D0A19;
+}
+
+.pm{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: -0.1px;
+    color: #9A9EA7;
+
+}
+.find{
+    margin-left: 30px;
+    padding-top: 20px;
+}
+.findImg{
+    height: 30px;
+    width: 50px;
+}
+.findInfo{
+    margin-left: 20px;
+}
+.findInfo h3{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 27px;
+    color: #0D0A19;
+}
+.findInfo p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: -0.1px;
+    color: #9A9EA7;
+}
+
+/*-------------------section7---------------*/
+
+
+.om{
+    margin-left: 200px;
+}
+.omlist{
+    list-style: none;
+    margin-left: -20px;
+}
+.omlist li{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 35px;
+    color: #0D0A19;
+
+}
+
+.lasttwo{
+    margin-top: 50px;
+    margin-left: 250px;
+}
+.omlist2{
+    margin-right: 5px;
+}
+
+.section7{
+    padding-top: 50px;
+    margin-bottom: 20px;
+}
+.lastlist{
+    list-style: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 33px;
+    letter-spacing: -0.1px;
+    color: #9A9EA7;
+}
+.section7{
+    background-color: rgb(230, 228, 227);
+
+}
+.section7h3{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: -0.1px;
+    color: #0D0A19;
+    margin-left: 30px;
+}
+
+.footer{
+    margin: 30px;
+    padding: 20px;
+    background-color: #3d3d40;
+    color: white;
+  
+}
 
 
 @media all and (max-width: 767px){
@@ -349,4 +578,33 @@ color: #0D0A19;
     display: none;
    }
     
+   .InfoWrapper{
+    width: 70%;
+    text-align: center;
+   }
+   .CompanyInfo{
+    margin-left: 80px;
+   }
+   .companyImg{
+    height: 300px;
+    width: 300px;
+   }
+   .CompanyLogo{
+    margin-left: 70px;
+   }
+   .mobileView{
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 450px;
+   }
+   .mobile{
+    height: 200px;
+    margin-left: 100px;
+   }
+   .section7{
+    
+    
+   }
+
 }
